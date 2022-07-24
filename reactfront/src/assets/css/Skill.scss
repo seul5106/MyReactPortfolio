@@ -1,0 +1,89 @@
+.SkillContainer {
+  padding-top: 71px;
+  background-color: rgb(255, 208, 0);
+  .SkillTitleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .SkillClip {
+      z-index: 20;
+      float: left;
+      width: 32px;
+      height: 32px;
+      background-image: url(../img/pngegg.png);
+      background-size: cover;
+      margin: auto 0;
+    }
+
+    .SkillTitle {
+      font-weight: bold;
+      font-size: 50px;
+      float: left;
+      text-decoration-style: solid;
+      text-decoration-line: underline;
+      text-decoration-thickness: 3%;
+      text-underline-position: under;
+      text-decoration-color: rgb(158, 158, 158);
+    }
+  }
+
+  .SkillItemsContainer {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+    .SkillContent {
+      width: 300px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+      img {
+        padding: 20px;
+        margin: 0 auto;
+        width: 224px;
+      }
+      hr {
+        margin: 0 auto;
+        margin-bottom: 7px;
+        width: 80%;
+      }
+      p {
+        color: rgb(236, 83, 12);
+        padding: 10px 0 5px 27px;
+        margin: 8px 0;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      
+    }
+    
+    .frontend{
+      height: 575px;
+    }
+    .server{
+      height: 380px;
+    }
+    .database{
+      height: 467px;
+    }
+    .linux{
+      height: 443px;
+    }
+    .git{
+      height:  355px;
+    }
+
+    .cloud{
+      height: 170px;
+    }
+  }
+}

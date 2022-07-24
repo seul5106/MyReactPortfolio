@@ -1,20 +1,29 @@
 @font-face {
-    font-family: "BlackhanSans";
-    font-weight: 50;
-    src: url("../font/MICEGothic.ttf") format("truetype");
+  font-family: "BlackhanSans";
+  font-weight: 50;
+  src: url("../font/MICEGothic.ttf") format("truetype");
 }
 
-*{
-    font-family: "BlackhanSans";
-    padding: 0;
-    margin: 0;
+@font-face {
+  font-family: "ELAND";
+  font-weight: 50;
+  src: url("../font/ELAND\ 나이스\ M.ttf") format("truetype");
 }
 
-li{
-    list-style: none;
+* {
+  font-family: "BlackhanSans";
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    height: 3000px;
+li {
+  list-style: none;
 }
 
+body {
+  height: 3000px;
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */

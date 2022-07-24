@@ -89,15 +89,17 @@
     z-index: 9999;
     transform: translate(-50%, -50%);
     .Name {
+      font-family: "ELAND";
       text-align: center;
-      font-size: 50px;
+      font-size: 60px;
       color: azure;
-      font-weight: bold;
     }
     .NamePortfolio {
+      width: 500px;
+      font-family: "ELAND";
       margin-top: 20px;
       color: azure;
-      font-size: 40px;
+      font-size: 55px;
       text-align: center;
       margin-bottom: 20px;
     }
@@ -115,6 +117,7 @@
       margin-bottom: 100px;
     }
     .NameBtn {
+      font-weight: bold;
       display: block;
       width: 180px;
       height: 50px;
@@ -138,6 +141,68 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
   /* 브라우저 사이즈 739px 이하일때*/
+  .HomeContainer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+  
+    .HomeIntroduce {
+      width: 190px;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      z-index: 9999;
+      transform: translate(-50%, -50%);
+      .Name {
+        text-align: center;
+        font-size: 41px;
+        color: azure;
+      }
+      .NamePortfolio {
+        margin: 0 auto;
+        width: 150px;
+        margin-top: 20px;
+        color: azure;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .Nameintro1 {
+        text-align: center;
+        font-size: 15px;
+        color: azure;
+        margin: 5px;
+      }
+      .Nameintro2 {
+        text-align: center;
+        font-size: 15px;
+        color: azure;
+        margin: 5px;
+        margin-bottom: 80px;
+      }
+      .NameBtn {
+        display: block;
+        width: 180px;
+        height: 50px;
+        border: none;
+        border-radius: 20px;
+        margin: auto;
+        background-color: rgb(245, 131, 56);
+        color: rgb(252, 252, 252);
+        font-size: 30px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        &:hover {
+          background-color: rgb(255, 163, 102);
+  
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
 }
