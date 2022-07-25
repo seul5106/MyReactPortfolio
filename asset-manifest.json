@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MyReactPortfolio/static/css/main.c1f4a3d5.css",
+    "main.js": "/MyReactPortfolio/static/js/main.27be1fd7.js",
+    "static/js/787.0451fb7f.chunk.js": "/MyReactPortfolio/static/js/787.0451fb7f.chunk.js",
+    "static/media/laptop-notebook-computer-screen-apple-table-914874-pxhere.com.jpg": "/MyReactPortfolio/static/media/laptop-notebook-computer-screen-apple-table-914874-pxhere.com.fb3a347b008241695aa1.jpg",
+    "static/media/MICEGothic.ttf": "/MyReactPortfolio/static/media/MICEGothic.5a7fbc79a4a1221ac7ce.ttf",
+    "static/media/ELAND 나이스 M.ttf": "/MyReactPortfolio/static/media/ELAND 나이스 M.d04e9a64e7459ebf2493.ttf",
+    "static/media/databases.png": "/MyReactPortfolio/static/media/databases.0f4122704258e5dc5fcf.png",
+    "static/media/frontend.png": "/MyReactPortfolio/static/media/frontend.0019f41ec01f4b128e9d.png",
+    "static/media/server.png": "/MyReactPortfolio/static/media/server.fe04abd9ae6297e3738a.png",
+    "static/media/linux.jpg": "/MyReactPortfolio/static/media/linux.4d7cc0582f43e4da1d57.jpg",
+    "static/media/git.png": "/MyReactPortfolio/static/media/git.6bdad36b75cd5f47e1a6.png",
+    "static/media/pin.png": "/MyReactPortfolio/static/media/pin.64af410c6a5f32b5fd4f.png",
+    "static/media/user.png": "/MyReactPortfolio/static/media/user.33e7df0963941edbeb70.png",
+    "index.html": "/MyReactPortfolio/index.html",
+    "main.c1f4a3d5.css.map": "/MyReactPortfolio/static/css/main.c1f4a3d5.css.map",
+    "main.27be1fd7.js.map": "/MyReactPortfolio/static/js/main.27be1fd7.js.map",
+    "787.0451fb7f.chunk.js.map": "/MyReactPortfolio/static/js/787.0451fb7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1f4a3d5.css",
+    "static/js/main.27be1fd7.js"
+  ]
+}
