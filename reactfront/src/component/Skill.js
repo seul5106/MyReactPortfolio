@@ -33,9 +33,6 @@ const Skill = () => {
         } else {
             setData(false)
         }
-        console.clear()
-        console.log(divheight2)
-        console.log("스크롤 위치: " + scrollPosition +  " div높이: " + divheight1);
     }, [scrollPosition, data, divheight1, divheight2]);
 
     return (
