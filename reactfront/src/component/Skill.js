@@ -13,20 +13,30 @@ import '../assets/css/Skill.min.css'
 
 const Skill = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
+    const [divheight1, setDivheight1] = useState(0);
+    const [divheight2, setDivheight2] = useState(0);
     const [data, setData] = useState(false);
 
     const updateScroll = () => {
         setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+        let elHeight1 = document.getElementById('1').clientHeight
+        let elHeight2 = document.getElementById('2').clientHeight
+        let elHeight3 = document.getElementById('3').clientHeight
+
+        setDivheight1(elHeight1 + elHeight2 + elHeight3)
+        setDivheight2(elHeight1 + elHeight2)
     }
     useEffect(() => {
         window.addEventListener('scroll', updateScroll);
-        if (scrollPosition < 450 || scrollPosition > 2200) {
+        if (scrollPosition < 500 || scrollPosition >  divheight1-70) {
             setData(true)
         } else {
             setData(false)
         }
-        
-    }, [scrollPosition, data]);
+        console.clear()
+        console.log(divheight2)
+        console.log("스크롤 위치: " + scrollPosition +  " div높이: " + divheight1);
+    }, [scrollPosition, data, divheight1, divheight2]);
 
     return (
         <div id="3" className="SkillContainer">

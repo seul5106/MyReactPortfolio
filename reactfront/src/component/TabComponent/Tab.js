@@ -1,10 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from "react-scroll"
-import Home from '../Home';
-import About from '../About';
 
 import "../../assets/css/Tab.min.css"
+
+import Home from '../Home';
+import About from '../About';
 import Skill from '../Skill';
+import Project from '../Project';
 
 
 
@@ -44,6 +46,7 @@ const Tab = () => {
             <Home/>
             <About/>
             <Skill/>
+            <Project/>
         </>
     );
 };

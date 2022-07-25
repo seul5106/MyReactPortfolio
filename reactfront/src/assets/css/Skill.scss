@@ -62,9 +62,13 @@
         font-size: 30px;
         font-weight: bold;
       }
-
-      
     }
+
+    .SkillContent:hover {
+      position: relative;
+      bottom: 20px;
+    }
+    
     
     .frontend{
       height: 575px;
