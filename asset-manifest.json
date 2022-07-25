@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/MyReactPortfolio/static/css/main.b9faef00.css",
+    "main.css": "/MyReactPortfolio/static/css/main.db26635c.css",
     "main.js": "/MyReactPortfolio/static/js/main.5f10424e.js",
     "static/js/787.0451fb7f.chunk.js": "/MyReactPortfolio/static/js/787.0451fb7f.chunk.js",
-    "static/media/laptop-notebook-computer-screen-apple-table-914874-pxhere.com.jpg": "/MyReactPortfolio/static/media/laptop-notebook-computer-screen-apple-table-914874-pxhere.com.fb3a347b008241695aa1.jpg",
+    "static/media/laptop-notebook-computer-screen-apple-table-914874-pxhere.com.jpg": "/MyReactPortfolio/static/media/laptop-notebook-computer-screen-apple-table-914874-pxhere.com.8fd9e86d538e7c2e805a.jpg",
     "static/media/MICEGothic.ttf": "/MyReactPortfolio/static/media/MICEGothic.5a7fbc79a4a1221ac7ce.ttf",
     "static/media/사진예약.PNG": "/MyReactPortfolio/static/media/사진예약.ca878f82a8ad0792f223.PNG",
     "static/media/ELAND 나이스 M.ttf": "/MyReactPortfolio/static/media/ELAND 나이스 M.d04e9a64e7459ebf2493.ttf",
@@ -17,12 +17,12 @@
     "static/media/user.png": "/MyReactPortfolio/static/media/user.33e7df0963941edbeb70.png",
     "static/media/디저트40.PNG": "/MyReactPortfolio/static/media/디저트40.b6b6d5317da83675ef15.PNG",
     "index.html": "/MyReactPortfolio/index.html",
-    "main.b9faef00.css.map": "/MyReactPortfolio/static/css/main.b9faef00.css.map",
+    "main.db26635c.css.map": "/MyReactPortfolio/static/css/main.db26635c.css.map",
     "main.5f10424e.js.map": "/MyReactPortfolio/static/js/main.5f10424e.js.map",
     "787.0451fb7f.chunk.js.map": "/MyReactPortfolio/static/js/787.0451fb7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9faef00.css",
+    "static/css/main.db26635c.css",
     "static/js/main.5f10424e.js"
   ]
 }
