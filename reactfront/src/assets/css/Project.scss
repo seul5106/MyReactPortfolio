@@ -1,4 +1,206 @@
 .ProjectContainer {
+  padding-top: 71px;
+  background-color: rgb(0, 194, 184);
+  .ProjectTitleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .ProjectClip {
+      z-index: 20;
+      float: left;
+      width: 32px;
+      height: 32px;
+      background-image: url(../img/pngegg.png);
+      background-size: cover;
+      margin: auto 0;
+      filter: opacity(0.5) drop-shadow(0 0 0 rgb(255, 232, 202));
+    }
+
+    .ProjectTitle {
+      color: antiquewhite;
+      font-weight: bold;
+      font-size: 50px;
+      float: left;
+      text-decoration-style: solid;
+      text-decoration-line: underline;
+      text-decoration-thickness: 3%;
+      text-underline-position: under;
+      text-decoration-color: rgb(158, 158, 158);
+    }
+  }
+
+  .ProjectItemsContainer {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    .ProjectContent {
+      margin: 0 auto;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      width: 95%;
+      max-width: 1100px;
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+
+      .ProjectName {
+        margin: 12px auto;
+        width: 95%;
+        font-size: 25px;
+        color: rgb(73, 73, 73);
+        font-weight: bold;
+      }
+
+      hr {
+        width: 95%;
+        margin: 0 auto;
+      }
+
+      .InfoContainer {
+        margin: 12px auto;
+        margin-bottom: 18px;
+        width: 95%;
+
+        display: flex;
+        flex-wrap: wrap;
+        .InfoImg1 {
+          margin: auto;
+          width: 300px;
+          max-width: 300px;
+          height: 525px;
+          background-image: url(../img/ProjectImg/디저트40.PNG);
+          background-size: cover;
+          border-radius: 10px;
+        }
+
+        .InfoImg2 {
+          margin: auto;
+          width: 90%;
+          min-width: 300px;
+          background-size: cover;
+          background-position: center;
+
+          img {
+            width: 100%;
+            border-radius: 10px;
+          }
+        }
+
+        .InfoImg3 {
+          margin: auto;
+          width: 400px;
+          max-width: 300px;
+          height: 525px;
+          background-image: url(../img/ProjectImg/포폴사진.PNG);
+          background-size: cover;
+          border-radius: 10px;
+        }
+
+        .InfoContentContainer {
+          min-width: 330px;
+          padding-top: 20px;
+          margin: 0 auto;
+          width: 63%;
+          display: flex;
+          flex-direction: column;
+
+          .Info {
+            padding: 0 15px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            line-height: 26px;
+            span{
+              font-weight: bold;
+              color: rgb(255, 0, 0);
+            }
+          }
+
+          button {
+            background-color: rgb(19, 19, 19);
+            font-size: 23px;
+            font-weight: bold;
+            width: 200px;
+            min-height: 40px;
+            margin-left: 15px;
+            margin-bottom: 30px;
+            border: none;
+            border-radius: 6px;
+            color: #fff;
+            &:hover{
+              background-color: rgb(78, 78, 78);
+              color: #fff;
+              cursor: pointer;
+            }
+          }
+
+          .InfoDevelopment {
+            padding: 0 15px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 20px;
+            span{
+              font-weight: bold;
+              color: rgb(255, 0, 0);
+            }
+          }
+        }
+
+        .InfoContentContainer2 {
+          padding-top: 20px;
+          margin: 0 auto;
+          width: 93%;
+          min-width: 330px;
+          display: flex;
+          flex-direction: column;
+
+          .Info {
+            padding: 0 15px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            line-height: 26px;
+            span{
+              font-weight: bold;
+              color: rgb(255, 0, 0);
+            }
+          }
+
+          button {
+            background-color: rgb(19, 19, 19);
+            font-size: 23px;
+            font-weight: bold;
+            width: 200px;
+            min-height: 40px;
+            border: none;
+            border-radius: 6px;
+            margin-left: 15px;
+            color: #fff;
+            &:hover{
+              background-color: rgb(78, 78, 78);
+              color: #fff;
+              cursor: pointer;
+            }
+          }
+
+          .InfoDevelopment {
+            padding: 0 15px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            span{
+              font-weight: bold;
+              color: rgb(255, 0, 0);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .ProjectContainer {
     padding-top: 71px;
     background-color: rgb(0, 194, 184);
     .ProjectTitleContainer {
@@ -39,89 +241,190 @@
         border-radius: 10px;
         box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         width: 95%;
-        max-width: 1000px;
+        max-width: 1100px;
         margin-bottom: 50px;
         display: flex;
         flex-direction: column;
-
-        .ProjectName{
-            margin: 12px auto;
-            width: 95%;
-            font-size: 25px;
-            color: rgb(73, 73, 73);
-            font-weight: bold;
-        }
-
-        hr{
-            width: 95%;
-            margin: 0 auto;
-        }
-
-        .InfoContainer{
-            margin: 12px auto;
-            margin-bottom: 18px;
-            width: 95%;
-            
-            display: flex;
-            flex-wrap: wrap;
-            .InfoImg1{
-                margin: auto;
-                width: 300px;
-                max-width: 300px;
-                height: 525px;
-                background-image: url(../img/ProjectImg/디저트40.PNG);
-                background-size: cover;
-                border-radius: 10px;
-            }
-
-            .InfoImg2{
-                margin: auto;
-                width: 70%;
-                min-width: 300px;
-                background-size: cover;
-                background-position: center;
-                
-                img{
-                    width: 100%;
-                    border-radius: 10px;
-                }
-            }
-
-            .InfoImg3{
-                margin: auto;
-                width: 400px;
-                max-width: 300px;
-                height: 525px;
-                background-image: url(../img/ProjectImg/포폴사진.PNG);
-                background-size: cover;
-                border-radius: 10px;
-            }
-
-            .InfoContentContainer{
-                padding-top: 20px;
-                margin: 0 auto;
-                width: 63%;
-                display: flex;
-                flex-direction: column;
-
-                .Info{
-                    font-size: 18px;
-                    margin-bottom: 80px;
-                    line-height: 26px;
-                }
-
-                .InfoDevelopment{
-                    font-size: 18px;
-                    line-height: 24px;
-                    margin-bottom: 20px;
-                }
-            }
-        }
-
-      }
   
-      
-    
+        .ProjectName {
+          margin: 12px auto;
+          width: 95%;
+          font-size: 25px;
+          color: rgb(73, 73, 73);
+          font-weight: bold;
+        }
+  
+        hr {
+          width: 95%;
+          margin: 0 auto;
+        }
+  
+        .InfoContainer {
+          margin: 12px auto;
+          margin-bottom: 18px;
+          width: 95%;
+  
+          display: flex;
+          flex-wrap: wrap;
+          .InfoImg1 {
+            margin: auto;
+            width: 300px;
+            max-width: 330px;
+            height: 525px;
+            background-image: url(../img/ProjectImg/디저트40.PNG);
+            background-size: cover;
+            border-radius: 10px;
+          }
+  
+          .InfoImg2 {
+            margin: auto;
+            width: 90%;
+            min-width: 300px;
+            background-size: cover;
+            background-position: center;
+  
+            img {
+              width: 100%;
+              border-radius: 10px;
+            }
+          }
+  
+          .InfoImg3 {
+            margin: auto;
+            width: 400px;
+            max-width: 300px;
+            height: 525px;
+            background-image: url(../img/ProjectImg/포폴사진.PNG);
+            background-size: cover;
+            border-radius: 10px;
+          }
+  
+          .InfoContentContainer {
+            min-width: 330px;
+            padding-top: 20px;
+            margin: 0 auto;
+            width: 63%;
+            display: flex;
+            flex-direction: column;
+  
+            .Info {
+              padding: 0 15px;
+              font-size: 18px;
+              margin-bottom: 10px;
+              line-height: 26px;
+              span{
+                font-weight: bold;
+                color: rgb(255, 0, 0);
+              }
+            }
+  
+            button {
+              background-color: rgb(19, 19, 19);
+              font-size: 23px;
+              font-weight: bold;
+              width: 200px;
+              min-height: 40px;
+              margin-left: 15px;
+              margin-bottom: 30px;
+              border: none;
+              border-radius: 6px;
+              color: #fff;
+              &:hover{
+                background-color: rgb(78, 78, 78);
+                color: #fff;
+                cursor: pointer;
+              }
+            }
+  
+            .InfoDevelopment {
+              padding: 0 15px;
+              font-size: 18px;
+              line-height: 24px;
+              margin-bottom: 20px;
+              span{
+                font-weight: bold;
+                color: rgb(255, 0, 0);
+              }
+            }
+          }
+  
+          .InfoContentContainer2 {
+            padding-top: 20px;
+            margin: 0 auto;
+            width: 93%;
+            min-width: 330px;
+            display: flex;
+            flex-direction: column;
+  
+            .Info {
+              padding: 0 15px;
+              font-size: 18px;
+              margin-bottom: 10px;
+              line-height: 26px;
+              span{
+                font-weight: bold;
+                color: rgb(255, 0, 0);
+              }
+            }
+  
+            button {
+              background-color: rgb(19, 19, 19);
+              font-size: 23px;
+              font-weight: bold;
+              width: 200px;
+              min-height: 40px;
+              border: none;
+              border-radius: 6px;
+              margin-left: 15px;
+              color: #fff;
+              &:hover{
+                background-color: rgb(78, 78, 78);
+                color: #fff;
+                cursor: pointer;
+              }
+            }
+  
+            .InfoDevelopment {
+              padding: 0 15px;
+              font-size: 18px;
+              line-height: 24px;
+              margin-top: 30px;
+              margin-bottom: 20px;
+              span{
+                font-weight: bold;
+                color: rgb(255, 0, 0);
+              }
+            }
+          }
+        }
+      }
     }
   }
+}
+
+.ProjectRMContainer{
   
+
+  .ProjectRMTab{
+    width: 100%;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+    a{
+      display: block;
+      font-size: 30px;
+      font-weight: bold;
+      
+      padding: 10px;
+      background-color: rgb(36, 36, 36);
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+  }
+
+  .ProjectRMContentContainer{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+
+  }
+}

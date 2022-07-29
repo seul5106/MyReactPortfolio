@@ -19,16 +19,20 @@ const Skill = () => {
 
     const updateScroll = () => {
         setScrollPosition(window.scrollY || document.documentElement.scrollTop);
-        let elHeight1 = document.getElementById('1').clientHeight
-        let elHeight2 = document.getElementById('2').clientHeight
-        let elHeight3 = document.getElementById('3').clientHeight
+        
+        //pathname을 조건문에 강제로 넣어 ReadMe버튼을 눌러 pathname이 바뀌었을 경우 실행이 안되게한다.
+        if (window.location.pathname === "/") {
+            let elHeight1 = document.getElementById('1').clientHeight
+            let elHeight2 = document.getElementById('2').clientHeight
+            let elHeight3 = document.getElementById('3').clientHeight
+            setDivheight1(elHeight1 + elHeight2 + elHeight3)
+            setDivheight2(elHeight1 + elHeight2)
+        }
 
-        setDivheight1(elHeight1 + elHeight2 + elHeight3)
-        setDivheight2(elHeight1 + elHeight2)
     }
     useEffect(() => {
         window.addEventListener('scroll', updateScroll);
-        if (scrollPosition < 500 || scrollPosition >  divheight1-70) {
+        if (scrollPosition < 500 || scrollPosition > divheight1 - 70) {
             setData(true)
         } else {
             setData(false)

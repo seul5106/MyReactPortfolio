@@ -47,7 +47,7 @@ const About = () => {
                 </div>
                 <div className="AboutContentWrapper">
                     <div className="AboutContent">
-                        <img src={mailImg} alt="연락처" />
+                        <img src={phoneImg} alt="연락처" />
                         <div className="AboutContentPContainer">
                             <p className="AboutContentP1">연락처</p>
                             <p className="AboutContentP2">010-9057-0451</p>
@@ -56,7 +56,7 @@ const About = () => {
                 </div>
                 <div className="AboutContentWrapper">
                     <div className="AboutContent">
-                        <img src={phoneImg} alt="이메일" />
+                        <img src={mailImg} alt="이메일" />
                         <div className="AboutContentPContainer">
                             <p className="AboutContentP1">이메일</p>
                             <p className="AboutContentP2">seul510@gmail.com</p>

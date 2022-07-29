@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-scroll"
+import { Route, Routes } from "react-router-dom";
 
 import "../../assets/css/Tab.min.css"
 
 import Home from '../Home';
 import About from '../About';
 import Skill from '../Skill';
-import Project from '../Project';
-
-
-
+import Project from '../ProjectComponent/Project';
 
 const Tab = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
