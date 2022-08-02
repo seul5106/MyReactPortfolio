@@ -61,9 +61,9 @@ const Skill = () => {
 
     const updateSkilldiv = (props) => {
         if (visible[props] === false) {
-            return "ClickSkillContentContainer"
+            return "ClickSkillContentContainer2"
         } else if (visible[props] === true) {
-            return 'ClickSkillContentContainer2'
+            return 'ClickSkillContentContainer'
         }
     }
 
@@ -74,6 +74,7 @@ const Skill = () => {
                 <p className='SkillTitle'>SKILLS</p>
             </div>
 
+            <p className='clickitemP'>Click Items!!</p>
 
             <div className="SkillItemsContainer">
                 <Fade spy={data}>
@@ -89,7 +90,7 @@ const Skill = () => {
                                 <p>JSON형태를 가지고 있는 데이터 가공 및 활용</p>
                                 <p>회원가입, 로그인, 게시판 구축</p>
                                 <p>아임포트연동을 통한 결제시스템 구현</p>
-                                
+
 
                                 <p className='ContentTitle'>React</p>
                                 <p>함수형 컴포넌트 작성</p>
@@ -116,7 +117,7 @@ const Skill = () => {
                                 <p>서버에 이미지 파일 저장</p>
                                 <p>구글 SMTP를 사용한 메일링 기능 구현</p>
                                 <p>JWT토큰 인증기능 구현</p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -129,7 +130,9 @@ const Skill = () => {
                         <div className={updateSkilldiv(2)}>
                             <div className='ClickSkillContent'>
                                 <p className='ContentTitle'>MySQL</p>
-                                <p>2424</p>
+                                <p>DB 설치 및 기본 SQL 작성</p>
+                                <p>데이터 베이스 및 테이블 설계</p>
+                                <p>workbench를 이용한 ERD 작성 및 추출</p>
                             </div>
                         </div>
                     </div>
@@ -141,8 +144,14 @@ const Skill = () => {
                         <img src={linuxImg} alt="프론트엔드" />
                         <div className={updateSkilldiv(3)}>
                             <div className='ClickSkillContent'>
-                                <p>123</p>
-                                <p>2424</p>
+                                <p className='ContentTitle'>Linux</p>
+                                <p>CentOS 설치 및 기본설정</p>
+                                <p>파일 생성, 변경, 삭제, 권한부여</p>
+                                <p>방화벽 설정</p>
+                                <p>vi로 파일 편집</p>
+                                <p>계정생성 및 권한 부여</p>
+                                <p>프로세스 매니저를 통한 Node서버관리</p>
+                                <p>NGINX를 사용한 클라이언트 서버 구축</p>
                             </div>
                         </div>
                     </div>
@@ -154,8 +163,10 @@ const Skill = () => {
                         <img src={gitImg} alt="프론트엔드" />
                         <div className={updateSkilldiv(4)}>
                             <div className='ClickSkillContent'>
-                                <p>123</p>
-                                <p>2424</p>
+                                <p className='ContentTitle'>Github</p>
+                                <p>Github을 통한 레포지토리 관리</p>
+                                <p>Git pull push commit등 명령어 사용</p>
+                                <p>마일스톤을 사용한 일정관리</p>
                             </div>
                         </div>
                     </div>
@@ -167,8 +178,9 @@ const Skill = () => {
                         <img src={naverCloudImg} alt="프론트엔드" />
                         <div className={updateSkilldiv(5)}>
                             <div className='ClickSkillContent'>
-                                <p>123</p>
-                                <p>2424</p>
+                                <p className='ContentTitle'>NCP</p>
+                                <p>클라우드 서버를 활용하여 ACG방화벽 규칙 설정</p>
+                                <p>mobaXterm을 사용하여 서버에 빌드파일 업로드</p>
                             </div>
                         </div>
                     </div>

@@ -43,7 +43,7 @@ const Project = () => {
                                     </p>
                                     <p>(테스트 단계라 결제 시도 시 12:00AM에 전액환불됩니다.)</p>
                                 </div>
-                                <button onClick={() => { goTo(0) }}>READ ME</button>
+                                <button onClick={() => { goTo(0) }}>자세히 보기 ▶ READ ME</button>
                                 <div className="InfoDevelopment">
                                     <div className="pflex">
                                         <p className="onBlockTitle"><strong>✔ 개발인원</strong>&nbsp;</p><p className="onBlock">3명</p>
@@ -70,7 +70,7 @@ const Project = () => {
                                         <p className="onBlockTitle"><strong>✔ 관리자 페이지 URL</strong>&nbsp;</p><p className="onBlock"><a href='http://118.67.129.217:3217/html/admin/admin_login.html'>dessert40/Admin</a></p>
                                     </div>
                                     <div className="pflex">
-                                        <p className="onBlockTitle"><strong>✔ Github:</strong>&nbsp;</p><p className="onBlock"><a href='https://github.com/seul5106/ezenproject_final'>GithubURL</a></p>
+                                        <p className="onBlockTitle"><strong>✔ Github</strong>&nbsp;</p><p className="onBlock"><a href='https://github.com/seul5106/ezenproject_final'>GithubURL</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -89,41 +89,41 @@ const Project = () => {
                                     <p>로그인 인증방식에 대해서 끊임없이 생각했으며 <span>JWT토큰</span>을 사용한 인증방식을 채택하였습니다.</p>
                                     <p>클라이언트와 서버를 분리시키려 노력했으며 <span>서버는 Node.js, 클라이언트는 linux환경에서 NGINX를 사용</span>하여 가동시켰습니다.</p>
                                 </div>
-                                <button onClick={() => { goTo(1) }}>READ ME</button>
+                                <button onClick={() => { goTo(1) }}>자세히 보기 ▶ READ ME</button>
                                 <div className="InfoDevelopment">
                                     <div className="pflex">
-                                        <p className="onBlockTitle"><strong>✔ 개발인원:</strong>&nbsp;</p><p className="onBlock">1명</p>
+                                        <p className="onBlockTitle"><strong>✔ 개발인원</strong>&nbsp;</p><p className="onBlock">1명</p>
                                     </div>
                                     <div className="pflex">
-                                        <p className="onBlockTitle"><strong>✔ Frontend:</strong>&nbsp;</p><p className="onBlock">React, Sass</p>
-                                    </div>
-
-                                    <div className="pflex">
-                                        <p className="onBlockTitle"><strong>✔ Backend:</strong>&nbsp;</p><p className="onBlock">Node.js</p>
+                                        <p className="onBlockTitle"><strong>✔ Frontend</strong>&nbsp;</p><p className="onBlock">React, Sass</p>
                                     </div>
 
                                     <div className="pflex">
-                                        <p className="onBlockTitle"><strong>✔ Database:</strong>&nbsp;</p><p className="onBlock">MySQL</p>
+                                        <p className="onBlockTitle"><strong>✔ Backend</strong>&nbsp;</p><p className="onBlock">Node.js</p>
                                     </div>
 
                                     <div className="pflex">
-                                        <p className="onBlockTitle"><strong>✔ 사용자 페이지 주요기능:</strong>&nbsp;</p><p className="onBlock">로그인, 회원가입, 예약하기, 예약취소</p>
+                                        <p className="onBlockTitle"><strong>✔ Database</strong>&nbsp;</p><p className="onBlock">MySQL</p>
                                     </div>
 
                                     <div className="pflex">
-                                        <p className="onBlockTitle"><strong>✔ 관리자 페이지 주요기능:</strong>&nbsp;</p><p className="onBlock">회원확인, 예약확인</p>
+                                        <p className="onBlockTitle"><strong>✔ 사용자 페이지 주요기능</strong>&nbsp;</p><p className="onBlock">로그인, 회원가입, 예약하기, 예약취소</p>
                                     </div>
 
                                     <div className="pflex">
-                                        <p className="onBlockTitle"><strong>✔ 사용자 페이지 URL:</strong>&nbsp;</p><p className="onBlock"><a href='http://118.67.129.217:9908/'>PhotoReservation</a> </p>
+                                        <p className="onBlockTitle"><strong>✔ 관리자 페이지 주요기능</strong>&nbsp;</p><p className="onBlock">회원확인, 예약확인</p>
                                     </div>
 
                                     <div className="pflex">
-                                        <p className="onBlockTitle"><strong>✔ 관리자 페이지 URL:</strong>&nbsp;</p><p className="onBlock">관리자사이트는 관리자 아이디로 로그인 후 Profile탭을 확인</p>
+                                        <p className="onBlockTitle"><strong>✔ 사용자 페이지 URL</strong>&nbsp;</p><p className="onBlock"><a href='http://118.67.129.217:9908/'>PhotoReservation</a> </p>
                                     </div>
 
                                     <div className="pflex">
-                                        <p className="onBlockTitle"><strong>✔ Github:</strong>&nbsp;</p><p className="onBlock"><a href='https://github.com/seul5106/photoreservation'>GithubURL</a></p>
+                                        <p className="onBlockTitle"><strong>✔ 관리자 페이지 URL</strong>&nbsp;</p><p className="onBlock">관리자사이트는 관리자 아이디로 로그인 후 Profile탭을 확인</p>
+                                    </div>
+
+                                    <div className="pflex">
+                                        <p className="onBlockTitle"><strong>✔ Github</strong>&nbsp;</p><p className="onBlock"><a href='https://github.com/seul5106/photoreservation'>GithubURL</a></p>
                                     </div>
 
                                 </div>
@@ -142,26 +142,26 @@ const Project = () => {
                                     </p>
                                     <p>미디어 쿼리를 활용할까도 생각했지만 display:flex를 사용하여 공간 설정만 해주니 손쉽게 반응형을 만들 수 있었습니다.</p>
                                 </div>
-                                <button onClick={() => { goTo(2) }}>READ ME</button>
+                                <button onClick={() => { goTo(2) }}>자세히 보기 ▶ READ ME</button>
                                 <div className="InfoDevelopment">
                                     <div className="pflex">
-                                        <p><strong>✔ 개발인원:</strong>&nbsp;</p><p className="onBlock">1명</p>
+                                        <p><strong>✔ 개발인원</strong>&nbsp;</p><p className="onBlock">1명</p>
                                     </div>
 
                                     <div className="pflex">
-                                        <p><strong>✔ Frontend:</strong>&nbsp;</p><p className="onBlock">React, Sass</p>
+                                        <p><strong>✔ Frontend</strong>&nbsp;</p><p className="onBlock">React, Sass</p>
                                     </div>
 
                                     <div className="pflex">
-                                        <p><strong>✔ Backend:</strong>&nbsp;</p><p className="onBlock">github.io를 활용</p>
+                                        <p><strong>✔ Backend</strong>&nbsp;</p><p className="onBlock">github.io를 활용</p>
                                     </div>
 
                                     <div className="pflex">
-                                        <p><strong>✔ 사용자 사이트 URL:</strong>&nbsp;</p><p className="onBlock"><a href='https://seul5106.github.io/MyReactPortfolio/'>MyReactPortfolio</a></p>
+                                        <p><strong>✔ 사용자 사이트 URL</strong>&nbsp;</p><p className="onBlock"><a href='https://seul5106.github.io/MyReactPortfolio/'>MyReactPortfolio</a></p>
                                     </div>
 
                                     <div className="pflex">
-                                        <p><strong>✔ Github:</strong>&nbsp;</p><p className="onBlock"><a href='https://github.com/seul5106/MyReactPortfolio'>GithubURL</a></p>
+                                        <p><strong>✔ Github</strong>&nbsp;</p><p className="onBlock"><a href='https://github.com/seul5106/MyReactPortfolio'>GithubURL</a></p>
                                     </div>
 
                                 </div>
