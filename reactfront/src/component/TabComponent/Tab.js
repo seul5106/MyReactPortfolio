@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { Link } from "react-scroll"
-import { Route, Routes } from "react-router-dom";
+import { throttle } from 'lodash';
 
 import "../../assets/css/Tab.min.css"
 
@@ -11,12 +11,17 @@ import Project from '../ProjectComponent/Project';
 
 const Tab = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
+    const beforeScrollY = useRef(0)
+    const scrollEvent = useMemo(
+        () =>
+            throttle(() => {
+                beforeScrollY.current = window.scrollY
+                setScrollPosition(beforeScrollY.current || document.documentElement.scrollTop);
+            }, 200),
+        [beforeScrollY]);
 
-    const updateScroll = () => {
-        setScrollPosition(window.scrollY || document.documentElement.scrollTop);
-    }
     useEffect(() => {
-        window.addEventListener('scroll', updateScroll);
+        window.addEventListener('scroll', scrollEvent);
     });
 
     const calscroll = () => {
@@ -25,8 +30,9 @@ const Tab = () => {
         } else {
             return "transTabContainer TabSizing"
         }
-
     }
+
+
 
     return (
         <>
