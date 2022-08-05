@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MyReactPortfolio/static/css/main.fb48d666.css",
-    "main.js": "/MyReactPortfolio/static/js/main.ff047992.js",
+    "main.css": "/MyReactPortfolio/static/css/main.63a3136f.css",
+    "main.js": "/MyReactPortfolio/static/js/main.cd87b377.js",
     "static/js/787.0451fb7f.chunk.js": "/MyReactPortfolio/static/js/787.0451fb7f.chunk.js",
-    "static/media/laptop-notebook-computer-screen-apple-table-914874-pxhere.com.jpg": "/MyReactPortfolio/static/media/laptop-notebook-computer-screen-apple-table-914874-pxhere.com.8fd9e86d538e7c2e805a.jpg",
     "static/media/MICEGothic.ttf": "/MyReactPortfolio/static/media/MICEGothic.5a7fbc79a4a1221ac7ce.ttf",
     "static/media/사진예약.PNG": "/MyReactPortfolio/static/media/사진예약.ca878f82a8ad0792f223.PNG",
     "static/media/ELAND 나이스 M.ttf": "/MyReactPortfolio/static/media/ELAND 나이스 M.d04e9a64e7459ebf2493.ttf",
     "static/media/포폴사진.PNG": "/MyReactPortfolio/static/media/포폴사진.8bb608d48adbe8aa5e37.PNG",
+    "static/media/laptop-notebook-computer-screen-apple-table-914874-pxhere.com.jpg": "/MyReactPortfolio/static/media/laptop-notebook-computer-screen-apple-table-914874-pxhere.com.ba9c8e25eae1f28a0426.jpg",
     "static/media/databases.png": "/MyReactPortfolio/static/media/databases.0f4122704258e5dc5fcf.png",
     "static/media/frontend.png": "/MyReactPortfolio/static/media/frontend.0019f41ec01f4b128e9d.png",
     "static/media/server.png": "/MyReactPortfolio/static/media/server.fe04abd9ae6297e3738a.png",
@@ -17,12 +17,12 @@
     "static/media/user.png": "/MyReactPortfolio/static/media/user.33e7df0963941edbeb70.png",
     "static/media/디저트40.PNG": "/MyReactPortfolio/static/media/디저트40.b6b6d5317da83675ef15.PNG",
     "index.html": "/MyReactPortfolio/index.html",
-    "main.fb48d666.css.map": "/MyReactPortfolio/static/css/main.fb48d666.css.map",
-    "main.ff047992.js.map": "/MyReactPortfolio/static/js/main.ff047992.js.map",
+    "main.63a3136f.css.map": "/MyReactPortfolio/static/css/main.63a3136f.css.map",
+    "main.cd87b377.js.map": "/MyReactPortfolio/static/js/main.cd87b377.js.map",
     "787.0451fb7f.chunk.js.map": "/MyReactPortfolio/static/js/787.0451fb7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb48d666.css",
-    "static/js/main.ff047992.js"
+    "static/css/main.63a3136f.css",
+    "static/js/main.cd87b377.js"
   ]
 }
