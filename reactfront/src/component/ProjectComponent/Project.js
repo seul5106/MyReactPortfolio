@@ -83,11 +83,11 @@ const Project = () => {
                             <div className='InfoImg2'><img src={PhotoReservationImg} alt="PhotoReservation" /></div>
                             <div className='InfoContentContainer2'>
                                 <div className='Info'>
-                                    <p><strong>친한 형이 사진스튜디오를 설립한다해서 이런 페이지가 있으면 어떨까 해서 개발하였습니다.</strong></p>
+                                    <p><strong>지인의 포토스튜디오 설립으로 만들어본 페이지입니다. </strong></p>
                                     &nbsp; <p>React를 사용한 첫 프로젝트며 <span>router-dom</span>, <span>redux</span>, <span>redux-toolkit</span>, <span>redux-persist</span>에 대해 공부가 되었습니다.</p>
 
                                     <p>로그인 인증방식에 대해서 끊임없이 생각했으며 <span>JWT토큰</span>을 사용한 인증방식을 채택하였습니다.</p>
-                                    <p>클라이언트와 서버를 분리시키려 노력했으며 <span>서버는 Node.js, 클라이언트는 linux환경에서 NGINX를 사용</span>하여 가동시켰습니다.</p>
+                                    <p>클라이언트와 서버를 분리하려 했고 <span>서버는 Node.js, 클라이언트는 linux환경에서 NGINX를 사용</span>하여 동작시켰습니다.</p>
                                 </div>
                                 <button onClick={() => { goTo(1) }}>자세히 보기 ▶ READ ME</button>
                                 <div className="InfoDevelopment">
@@ -137,17 +137,15 @@ const Project = () => {
                             <img className='InfoImg3' src={MyReactPortfolioImg} alt="MyReactPortfolio" />
                             <div className='InfoContentContainer'>
                                 <div className='Info'>
-                                    <p><strong>구글 탐색도중 많은 웹개발자들이 개인 웹 포트폴리오 사이트를 가지고 있어 나도 하나 가지고 있으면 좋을것 같아서 개발하였습니다</strong></p>
-                                    <p>모바일과 PC에서 볼 수 있게 최대한 <span>반응형</span>을 고려하여 작업하였습니다.
+                                    <p>개인 웹 포트폴리오이며 모바일과 PC에서 볼 수 있게 최대한 <span>반응형</span>을 고려하여 작업하였습니다.
                                     </p>
-                                    <p>미디어 쿼리를 활용할까도 생각했지만 display:flex를 사용하여 공간 설정만 해주니 손쉽게 반응형을 만들 수 있었습니다.</p>
+                                    <p>display:flex를 사용하여 기본적인 공간 설정을 하였고 미디어 쿼리를 사용해서 반응형을 만들 수 있었습니다.</p>
                                 </div>
                                 <button onClick={() => { goTo(2) }}>자세히 보기 ▶ READ ME</button>
                                 <div className="InfoDevelopment">
                                     <div className="pflex">
                                         <p><strong>✔ 개발인원</strong>&nbsp;</p><p className="onBlock">1명</p>
                                     </div>
-
                                     <div className="pflex">
                                         <p><strong>✔ Frontend</strong>&nbsp;</p><p className="onBlock">React, Sass</p>
                                     </div>
